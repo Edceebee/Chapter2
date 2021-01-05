@@ -1,4 +1,6 @@
-package chapter2;  /*program that multiply two integers, sum two intergers and subtract the intergers and divide the interger */
+package chapter2;
+
+/*program that multiply two integers, sum two integers and subtract the integers and divide the integer */
 
 
 		import java.util.Scanner;
@@ -25,13 +27,13 @@ package chapter2;  /*program that multiply two integers, sum two intergers and s
 	int division;
 
 		sum = number1 + number2; 
-		System.out.printf("Sum is %d%n, sum");
+		System.out.printf("Sum is %d%n", sum);
 
 		product = number1 * number2;
-		System.out.printf("Product is %d%n, product");
+		System.out.printf("Product is %d%n", product);
 
 		division = number1 / number2 ;
-		System.out.printf("Division is %d%n, division");
+		System.out.printf("Division is %d%n", division);
 
 
 		}

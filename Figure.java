@@ -1,4 +1,5 @@
-package chapter2;//  Write an application that reads an integer and determines and prints whether it’s odd or even.
+package chapter2;
+//  Write an application that reads an integer and determines and prints whether it’s odd or even.
 
 
 		import java.util.Scanner;
@@ -18,8 +19,6 @@ package chapter2;//  Write an application that reads an integer and determines a
 	System.out.print("Enter second number");
 	number2 = input.nextInt(); 
 
-		int odd;
-		int even;
 
 	if(number1 % 2 == 0)
 	System.out.print("Number1 is an even number");

@@ -10,10 +10,10 @@ package chapter2;    // program that display the larger number followed by the w
 	int number1;
 	int number2;
 
-		System.out.print("Enter first interger");
+		System.out.print("Enter first integer");
 		number1 = nums.nextInt();
 		
-		System.out.print("Enter second interger");
+		System.out.print("Enter second integer");
 		number2 = nums.nextInt();
 		
 

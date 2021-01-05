@@ -32,10 +32,10 @@ package chapter2;
 			int product;
 
 			sum = symbol1 + symbol2 + symbol3;
-			System.out.println("Sum is %d%n, sum");
+			System.out.printf("Sum is %d%n", sum);
 
 			product = symbol1 * symbol2 * symbol3;
-			System.out.println("Product is %d%n, product");
+			System.out.printf("Product is %d%n", product);
 
 			average = (symbol1 + symbol2 + symbol3) / 3;
 			System.out.print("The average of entered numbers is:" + average );
@@ -43,7 +43,7 @@ package chapter2;
 
 
 	if(symbol1 > symbol2 && symbol1 > symbol3)
-	System.out.printf("%d", symbol1);
+	System.out.printf("Smallest number is: %d%n", symbol1);
 	 
 	if(symbol2 > symbol1 && symbol2 > symbol3)
 	System.out.printf("%d", symbol2);

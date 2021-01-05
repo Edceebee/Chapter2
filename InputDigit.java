@@ -15,29 +15,19 @@ public class InputDigit {
     public static void main(String[] args) {
 
         Scanner input = new Scanner(System.in);
-        int number1;
-        int number2;
-        int number3;
-        int number4;
-        int number5;
-        int total;
+
+        int number;
+        int reverse = 1;
 
 
-        System.out.println("Kindly enter first number");
-        number1 = input.nextInt();
 
-        System.out.println("Kindly enter second number");
-        number2 = input.nextInt();
+        System.out.println("Kindly enter number");
+        number = input.nextInt();
 
-        System.out.println("Kindly enter third number");
-        number3 = input.nextInt();
+        reverse = (reverse * 10) + (number % 10);
+        number /= 10;
 
-        System.out.println("Kindly enter fourth number");
-        number4 = input.nextInt();
-
-        System.out.println("Kindly enter fifth number");
-        number5 = input.nextInt();
-
+        System.out.println("Reverse number is" + reverse);
 
 
 

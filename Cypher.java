@@ -1,6 +1,7 @@
 package chapter2;
 
-/*Write a program that inputs five numbers and determines and prints the number of negative numbers input, the number of positive numbers 						input and the number of zeros input */
+/*Write a program that inputs five numbers and determines and prints the number of negative numbers input, the
+number of positive numbers input and the number of zeros input */
 
 				import java.util.Scanner;
 					
@@ -32,9 +33,9 @@ package chapter2;
 					number5 = sign.nextInt();
 
 
-			if(number1 > 0){
+			if(number1 > 0)
 			System.out.println("number1 is positive ");  		
-			}
+
 			else if (number1 < 0){
 			System.out.println("number1 is negative. ");
 			}
